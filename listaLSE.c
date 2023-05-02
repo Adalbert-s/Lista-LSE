@@ -170,8 +170,6 @@ int retira(ListaLSE *l, int dado){
     /* 3o caso: removendo ultimo elemento */
     else if(dado == l->fim->dado) {
 
-        aux = l->fim; // aux aponta para o no que vou remover
-
         No *ant = NULL;
 
         aux = l->inicio;
