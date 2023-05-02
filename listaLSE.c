@@ -194,7 +194,7 @@ int retira(ListaLSE *l, int dado){
     /* 4o caso: removendo elemento no meio */
     else {
         No *ant = NULL;
-        No *aux = l->inicio;
+        aux = l->inicio;
 
         while (aux != NULL && aux->dado != dado) {
             ant = aux;
