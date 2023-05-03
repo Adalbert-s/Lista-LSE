@@ -191,7 +191,7 @@ int retira(ListaLSE *l, int dado){
         return 1;
     }
 
-    /* 4o caso: removendo elemento no meio */
+    /* 4o caso: removendo elemento no meio.*/
     else {
         No *ant = NULL;
         aux = l->inicio;
